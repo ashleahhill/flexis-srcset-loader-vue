@@ -15,7 +15,7 @@ export default new Router({
     },
     {
       path: '/example-background',
-      name: 'even',
+      name: 'background',
       component: () => import(/* webpackChunkName: "background" */ './views/the-background-image.vue'),
     },
     {
@@ -25,7 +25,7 @@ export default new Router({
     },
     // {
     //   path: '/example-odd',
-    //   name: 'even',
+    //   name: 'odd',
     //   component: () => import(/* webpackChunkName: "odd" */ './views/the-odd-image.vue'),
     // },
   ],
