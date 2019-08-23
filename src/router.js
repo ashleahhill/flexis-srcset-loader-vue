@@ -23,10 +23,10 @@ export default new Router({
       name: 'even',
       component: () => import(/* webpackChunkName: "even" */ './views/the-even-image.vue'),
     },
-    // {
-    //   path: '/example-odd',
-    //   name: 'odd',
-    //   component: () => import(/* webpackChunkName: "odd" */ './views/the-odd-image.vue'),
-    // },
+    {
+      path: '/example-odd',
+      name: 'odd',
+      component: () => import(/* webpackChunkName: "odd" */ './views/the-odd-image.vue'),
+    },
   ],
 });

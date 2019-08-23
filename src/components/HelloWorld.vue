@@ -19,12 +19,6 @@
         An example of an image whose scaled width is not an integer.
       </dd>
       <dd><router-link to="/example-odd">/example-odd</router-link></dd>
-      <dd>
-        <em>
-          This example is disabled until you uncomment the route in `./router`.
-          The build will then be broken unless <a href="https://github.com/TrigenSoftware/flexis-srcset/issues/62">@flexis/srcset bug</a> is fixed.
-        </em>
-      </dd>
     </dl>
   </div>
 </template>

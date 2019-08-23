@@ -24,6 +24,6 @@ export default {
   background-color: pink;
   background-size: cover;
   background-position: center center;
-  background-image: url('./../assets/examples/1000.png')
+  background-image: url('./../assets/examples/1000.png?default')
 }
 </style>
